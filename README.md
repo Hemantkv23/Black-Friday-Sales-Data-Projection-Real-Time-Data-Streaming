@@ -5,6 +5,8 @@
 This project implements a real-time data engineering pipeline for ingesting, processing, and analyzing streaming data. The pipeline utilizes various AWS services and Python scripts to achieve end-to-end data processing and analysis capabilities.
 
 ## Architecture
+![Architecture](https://github.com/Hemantkv23/Black-Friday-Sales-Data-Projection-Real-Time-Data-Streaming/assets/43467503/5d18ae00-b629-4b8e-908c-006937b48304)
+
 
 The architecture of the pipeline involves the following components:
 
