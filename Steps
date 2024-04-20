@@ -47,7 +47,7 @@ Creating Kinesis Firehose - data coming from kinesis stream will be collected as
 	Firehose Stream Name : "Kinesis-to-s3-delivery"
 		We will be accumulating certain number of records and will prepare a mini batch file. using Lambda we can do transformation on that mini batch file before dumping it into the S3 destination
 		for this we will be creating a lambda function:
-			name : 
+			name : stream_transformation
 			after creating change the permissions and attach policies
 				AWSLambdaKinesisExecutionRole
 				AmazonS3FullAccess
